@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAIA"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="60dp"
+
+         />
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gaia_logo" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TIME TO NET, SET, GOALS!"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/datarectangle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Carbon Phaseout"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#154488"
+        />
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="55dp"
+        android:gravity="center"
+        android:text="Get Started"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:backgroundTint="#B44D6060"/>
+
+</LinearLayout>
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/homeicon"
+        android:id="@+id/homeMenu"
+        tools:ignore="HardcodedText" />
+    <item android:title="Purchase"
+        android:icon="@drawable/carticon"
+        android:id="@+id/purchaseMenu"
+        tools:ignore="HardcodedText" />
+    <item android:title="Go Green"
+        android:icon="@drawable/worldicon"
+        android:id="@+id/goGreenMenu"
+        tools:ignore="HardcodedText" />
+    <item android:title="Settings"
+        android:icon="@drawable/settingsicon"
+        android:id="@+id/settingsMenu"
+        tools:ignore="HardcodedText" />
+    <item android:title="Profile"
+        android:icon="@drawable/profileicon"
+        android:id="@+id/profileMenu"
+        tools:ignore="HardcodedText" />
+</menu>
